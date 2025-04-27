@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/*======================
+        common css
+========================*/
+
+
+
+
+
+/*======================
+  navber common start
+========================*/
+
+
+.navber-cl{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.navbar ul{
+    display: flex;
+    column-gap: 16px;
+    margin-right: 11px;
+
+}
+
+
+.navbar ul li a{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+
+
+
+
+.navbar ul li:first-child{
+    padding: 0px 10px;
+
+}
+
+
+.navbar ul .btn a{
+    color: white;
+    background-color: #4CAF4F;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding: 10px 22px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+
+}
+
+
+.navbar ul .btn a:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*======================
+  navber common end
+========================*/
