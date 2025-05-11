@@ -1,75 +1,76 @@
+ul{
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
 }
 
 
+/* ======================
+          common 
+======================== */
 
 
-
-/*======================
-        common css
-========================*/
-
-
-
-
-
-/*======================
-  navber common start
-========================*/
-
-
-.navber-cl{
-    padding: 10px;
+.navber{
+    padding: 20px 0px;
+    
 }
 
-
-
-
-
-
-
-.navbar ul{
+.navber .box{
     display: flex;
-    column-gap: 16px;
-    margin-right: 11px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navber .box .menu ul{
+    display: flex;
+    column-gap: 50px;
+}
+
+ ul{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.navber .box .menu ul li a{
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
 
 }
 
 
-.navbar ul li a{
-    font-size: 11px;
-    font-weight: 500;
-    font-family: "Inter", sans-serif;
+.navber .box .menu ul li a::after{
+    content: "";
+    top: 23px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s;
 
 }
 
-
-
-
-
-
-.navbar ul li:first-child{
-    padding: 0px 10px;
-
+.navber .box .menu ul li a:hover::after{
+    width: 100%;
 }
 
-
-.navbar ul .btn a{
+.navber .box .button a{
     color: white;
-    background-color: #4CAF4F;
-    font-size: 11px;
+    font-size: 22px;
     font-weight: 500;
-    font-family: "Inter", sans-serif;
-    padding: 10px 22px;
-    border-radius: 4px;
+    background-color: rgb(34 197 94 );
+    padding: 5px 15px;
+    border-radius: 10px;
     border: 1px solid transparent;
     transition: 0.4s;
 
 }
-
-
-.navbar ul .btn a:hover{
+.navber .box .button a:hover{
     background-color: transparent;
     border: 1px solid black;
     color: black;
@@ -77,12 +78,26 @@ a{
 
 
 
+/* ================ */
+.banner-part h1{
+    padding-top: 100px;
+    width: 400px;
+}
+
+
+
+.banner-part span{
+    color: rgb(34 197 94 );
+};
+
+.banner-part .img-part{
+    m
+
+
+    
+}
 
 
 
 
 
-
-/*======================
-  navber common end
-========================*/
